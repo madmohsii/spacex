@@ -14,5 +14,10 @@ app.get('/', (req, res) => {
   });
 
 
+  // Définir la route pour l'indexTodo.html
+app.get('/todo', (req, res) => {
+  res.sendFile(path.join(__dirname, 'indexTodo.html'));
+});
+
 
 app.listen(3001)
