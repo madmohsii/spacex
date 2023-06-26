@@ -1,5 +1,6 @@
 # SpaceX Website Clone
 
-HTML/CSS/JS SpaceX website clone project from the [YouTube tutorial](https://www.youtube.com/watch?v=wryPX7KSwSc). It is not the entire website, but the homepage, a few inner pages with the CSS animations, mobile menu and the JavaScript countdown effect.
+## Plaquette Figma du site spaceX
 
 ![SpaceX Website](img/screen.jpg)
+![SpaceX Website](https://www.figma.com/file/OYr51M2IjdeFcJpRFsFSgZ/spaceX?type=design&node-id=0%3A1&mode=design&t=silahs9HWIdfbBNO-1)
