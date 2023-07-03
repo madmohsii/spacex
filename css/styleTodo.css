@@ -1,4 +1,4 @@
-/* TODO 0 */
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&display=swap');
 
 *,
 *::before,
@@ -9,9 +9,9 @@
 }
 
 body {
-  /* TODO 1 */
+  /* TODO 1 https://www.w3schools.com/cssref/pr_font_font-family.php */
   background: #000;
-  /* TODO 2 */
+  /* TODO 2 https://www.w3schools.com/cssref/pr_text_color.php */
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 ul {
-  /* TODO 3 */
+  /* TODO 3 https://www.w3schools.com/cssref/pr_list-style-type.php */
 }
 
 /* Header/Navbar */
@@ -30,8 +30,12 @@ ul {
   left: 0;
   width: 100%;
   z-index: 3;
-  /* TODO */
-  /* TODO */
+
+  /* 
+  Madani
+  faire une vidéo d'explication sur flex et justify-contentles en utilisant W3school */
+  /* TODO 4 https://www.w3schools.com/css/css3_flexbox.asp */
+  /* TODO 5 https://www.w3schools.com/cssref/css3_pr_justify-content.php */
 
   align-items: center;
   text-transform: uppercase;
@@ -41,7 +45,7 @@ ul {
 
 /* Logo */
 .logo {
-    /* TODO */
+    /* TODO 6 https://www.w3schools.com/cssref/pr_dim_width.php */
     height: auto; 
 }
 
@@ -57,7 +61,7 @@ ul {
 }
 
 .desktop-main-menu ul {
- /* TODO */
+ /* TODO 7 https://www.w3schools.com/css/css3_flexbox.asp  */
 }
 
 .desktop-main-menu ul li {
@@ -93,7 +97,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-transform: uppercase;
+   /* TODO 7 https://www.w3schools.com/cssref/pr_text_text-transform.php  */
 }
 
 .section-inner {
@@ -125,7 +129,7 @@ section {
 
 /* Background images */
 .section-a {
-  background-image: url('../img/section-a.webp');
+ /* TODO 8 https://www.w3schools.com/cssref/pr_background-image.php */
 }
 
 .section-b {
@@ -357,26 +361,6 @@ footer ul li a:hover {
   font-size: 20px;
   animation: fadeInUp 0.5s ease-in-out 0.2s;
   animation-fill-mode: both;
-}
-
-/* Stats */
-.stats {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.stats div span {
-  font-size: 160px;
-}
-
-.stats div h4 {
-  font-size: 24px;
-  font-weight: 300;
 }
 
 /* Animations */
